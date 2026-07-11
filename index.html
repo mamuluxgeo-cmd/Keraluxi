@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f6b46">
+  <meta name="description" content="Keralux — სანტექნიკა, კაფელი, აბაზანის ავეჯი და სარემონტო საქონელი ბათუმში, ბაგრატიონის 12-ში.">
+  <meta name="keywords" content="Keralux, კერალუქსი, სანტექნიკა ბათუმში, კაფელი, უნიტაზი, ნიჟარა, აბაზანის ავეჯი, სარემონტო მასალები">
+  <meta property="og:title" content="Keralux — ყველაფერი სახლისთვის ერთ სივრცეში">
+  <meta property="og:description" content="სანტექნიკა, კაფელი, აბაზანის ავეჯი და სარემონტო საქონელი ბათუმში.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.svg">
+  <title>Keralux — სანტექნიკა და სარემონტო საქონელი ბათუმში</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Keralux",
+    "alternateName": "კერალუქსი",
+    "image": "assets/logo.svg",
+    "telephone": "+995558042042",
+    "email": "keralux22@mail.ru",
+    "priceRange": "₾",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ბაგრატიონის ქუჩა 12",
+      "addressLocality": "ბათუმი",
+      "addressCountry": "GE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6393298,
+      "longitude": 41.6513055
+    },
+    "sameAs": ["https://www.facebook.com/keraluxbatumi"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">მთავარ შინაარსზე გადასვლა</a>
+
+  <div class="announcement" role="region" aria-label="საინფორმაციო ზოლი">
+    <div class="container announcement__inner">
+      <p>კონსულტაცია და პროდუქტის შერჩევაში დახმარება — <a href="tel:+995558042042">558 04 20 42</a></p>
+      <a class="announcement__map" href="https://maps.app.goo.gl/PQPqKfvnv5aGLSYRA" target="_blank" rel="noopener">ბათუმი, ბაგრატიონის 12</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header__row">
+      <a class="brand" href="#top" aria-label="Keralux — მთავარი გვერდი">
+        <img src="assets/logo.svg" alt="Keralux-ის ლოგო" width="56" height="56">
+        <span><strong>Keralux</strong><small>კერალუქსი</small></span>
+      </a>
+
+      <form class="search" id="searchForm" role="search">
+        <label class="sr-only" for="siteSearch">პროდუქტის ძიება</label>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+        <input id="siteSearch" type="search" autocomplete="off" placeholder="მოძებნე პროდუქტი, კოდი, მასალა...">
+        <button type="submit">ძიება</button>
+      </form>
+
+      <div class="header__actions">
+        <button class="icon-button" id="wishlistButton" aria-label="რჩეულები" aria-controls="wishlistPanel">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
+          <span class="badge" id="wishlistCount">0</span>
+        </button>
+        <button class="icon-button" id="cartButton" aria-label="კალათა" aria-controls="cartDrawer">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 3h2l2.4 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L21 7H7m3 13h.01M18 20h.01"/></svg>
+          <span class="badge" id="cartCount">0</span>
+        </button>
+        <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="mobileMenu" aria-label="მენიუს გახსნა">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="desktop-nav" aria-label="მთავარი ნავიგაცია">
+      <div class="container nav__inner">
+        <a href="#categories">პროდუქცია</a>
+        <a href="#featured">სპეციალური შეთავაზებები</a>
+        <a href="#ideas">იდეები</a>
+        <a href="#projectSupport">პროექტის მხარდაჭერა</a>
+        <a href="#about">ჩვენ შესახებ</a>
+        <a href="#contact">კონტაქტი</a>
+      </div>
+    </nav>
+
+    <nav class="mobile-nav" id="mobileMenu" aria-label="მობილური ნავიგაცია" hidden>
+      <a href="#categories">პროდუქცია</a>
+      <a href="#featured">შეთავაზებები</a>
+      <a href="#ideas">იდეები</a>
+      <a href="#projectSupport">პროექტის მხარდაჭერა</a>
+      <a href="#about">ჩვენ შესახებ</a>
+      <a href="#contact">კონტაქტი</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero__image" aria-hidden="true"></div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <span class="eyebrow">სახლი იწყება სწორი არჩევანით</span>
+        <h1>ყველაფერი სახლისთვის<br><span>ერთ სივრცეში</span></h1>
+        <p>სანტექნიკა, კაფელი, აბაზანის ავეჯი და სარემონტო საქონელი — პრაქტიკული არჩევანი და პროფესიონალური კონსულტაცია ბათუმში.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#featured">პროდუქციის ნახვა</a>
+          <a class="button button--glass" href="tel:+995558042042">დაგვიკავშირდი</a>
+        </div>
+        <div class="hero__trust" aria-label="მთავარი უპირატესობები">
+          <span><b>4.6</b> მომხმარებლის შეფასება</span>
+          <span><b>17K+</b> Facebook გამომწერი</span>
+          <span><b>ბათუმი</b> ბაგრატიონის 12</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section categories" id="categories">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow eyebrow--dark">კატეგორიები</span><h2>იპოვე რაც შენს სივრცეს სჭირდება</h2></div>
+          <p>პროდუქცია დალაგებულია მიმართულებების მიხედვით, რათა სასურველი ნივთი მარტივად იპოვო.</p>
+        </div>
+        <div class="category-grid">
+          <button class="category-card category-card--large" data-category="სანტექნიკა">
+            <img src="assets/toilet-2.svg" alt="თანამედროვე უნიტაზი">
+            <span class="category-card__content"><small>აბაზანისთვის</small><strong>სანტექნიკა</strong><em>უნიტაზები, ნიჟარები, ონკანები</em></span>
+          </button>
+          <button class="category-card" data-category="აბაზანის ავეჯი">
+            <img src="assets/cabinet-1.svg" alt="აბაზანის ავეჯი და ნიჟარა">
+            <span class="category-card__content"><small>ფუნქციური სივრცე</small><strong>აბაზანის ავეჯი</strong><em>კარადები, სარკეები, კომპლექტები</em></span>
+          </button>
+          <button class="category-card" data-category="კაფელი">
+            <img src="assets/hero.svg" alt="კაფელით მოპირკეთებული ინტერიერი">
+            <span class="category-card__content"><small>კედელი და იატაკი</small><strong>კაფელი</strong><em>თანამედროვე ფაქტურები და ფორმატები</em></span>
+          </button>
+          <button class="category-card" data-category="საყოფაცხოვრებო">
+            <img src="assets/broom-set.svg" alt="საყოფაცხოვრებო ნივთები">
+            <span class="category-card__content"><small>ყოველდღიური საჭიროება</small><strong>საყოფაცხოვრებო</strong><em>დასუფთავება, განათება, ტექნიკა</em></span>
+          </button>
+          <button class="category-card" data-category="სარემონტო მასალები">
+            <img src="assets/cabinet-5.svg" alt="სარემონტო პროდუქცია">
+            <span class="category-card__content"><small>რემონტისთვის</small><strong>მასალები და აქსესუარები</strong><em>სამონტაჟო და დამხმარე პროდუქცია</em></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="value-strip" aria-label="Keralux-ის უპირატესობები">
+      <div class="container value-grid">
+        <article><span>01</span><div><strong>ფართო არჩევანი</strong><p>ერთ სივრცეში სახლისთვის საჭირო სხვადასხვა მიმართულება.</p></div></article>
+        <article><span>02</span><div><strong>პრაქტიკული კონსულტაცია</strong><p>დახმარება ზომის, მასალისა და შეთავსების შერჩევაში.</p></div></article>
+        <article><span>03</span><div><strong>ფიზიკური მაღაზია</strong><p>ნახე პროდუქცია ადგილზე — ბათუმი, ბაგრატიონის 12.</p></div></article>
+        <article><span>04</span><div><strong>სწრაფი შეკვეთა</strong><p>დაამატე კალათაში და გამოგვიგზავნე შეკვეთა WhatsApp-ით.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section products-section" id="featured">
+      <div class="container">
+        <div class="section-heading section-heading--products">
+          <div><span class="eyebrow eyebrow--dark">რჩეული პროდუქცია</span><h2>პოპულარული შეთავაზებები</h2></div>
+          <div class="product-controls">
+            <label for="categoryFilter" class="sr-only">კატეგორიის ფილტრი</label>
+            <select id="categoryFilter">
+              <option value="all">ყველა კატეგორია</option>
+              <option value="სანტექნიკა">სანტექნიკა</option>
+              <option value="აბაზანის ავეჯი">აბაზანის ავეჯი</option>
+              <option value="კაფელი">კაფელი</option>
+              <option value="საყოფაცხოვრებო">საყოფაცხოვრებო</option>
+              <option value="სარემონტო მასალები">სარემონტო მასალები</option>
+            </select>
+            <label for="sortProducts" class="sr-only">დალაგება</label>
+            <select id="sortProducts">
+              <option value="recommended">რეკომენდებული</option>
+              <option value="price-asc">ფასი: დაბლიდან</option>
+              <option value="price-desc">ფასი: მაღლიდან</option>
+              <option value="discount">ყველაზე დიდი ფასდაკლება</option>
+            </select>
+          </div>
+        </div>
+        <div class="active-search" id="activeSearch" hidden>
+          <span>ძიების შედეგები: <strong id="activeSearchTerm"></strong></span>
+          <button id="clearSearch">გასუფთავება</button>
+        </div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden>
+          <strong>პროდუქტი ვერ მოიძებნა</strong>
+          <p>სცადე სხვა სიტყვა ან გაასუფთავე ფილტრები.</p>
+          <button class="button button--dark" id="resetFilters">ყველა პროდუქტის ნახვა</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-banner" id="projectSupport">
+      <div class="container project-banner__inner">
+        <div>
+          <span class="eyebrow">რემონტს გეგმავ?</span>
+          <h2>დაგეხმარებით სწორი პროდუქტების შერჩევაში</h2>
+          <p>გამოგვიგზავნე სივრცის ზომები ან ფოტოები და მიიღე კონსულტაცია პროდუქტის შეთავსებაზე, რაოდენობასა და საჭირო აქსესუარებზე.</p>
+        </div>
+        <button class="button button--light" id="projectButton">კონსულტაციის მოთხოვნა</button>
+      </div>
+    </section>
+
+    <section class="section ideas" id="ideas">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow eyebrow--dark">იდეები და რჩევები</span><h2>გააკეთე არჩევანი თავდაჯერებულად</h2></div>
+          <p>მოკლე გზამკვლევები დაგეხმარება სივრცის დაგეგმვასა და პროდუქტის სწორად შერჩევაში.</p>
+        </div>
+        <div class="ideas-grid">
+          <article class="idea-card">
+            <div class="idea-card__visual idea-card__visual--bath"><span>01</span></div>
+            <div><small>აბაზანის დაგეგმვა</small><h3>როგორ შევარჩიოთ უნიტაზის სწორი ზომა?</h3><p>გაითვალისწინე კედლის ტიპი, საკომუნიკაციო წერტილები და თავისუფალი სივრცე.</p><button class="text-link" data-guide="toilet">წაიკითხე რჩევა →</button></div>
+          </article>
+          <article class="idea-card">
+            <div class="idea-card__visual idea-card__visual--tile"><span>02</span></div>
+            <div><small>კაფელის შერჩევა</small><h3>ფორმატი, ფაქტურა და ფერი ერთ სივრცეში</h3><p>სწორი კომბინაცია ოთახს ვიზუალურად ზრდის და მოვლასაც ამარტივებს.</p><button class="text-link" data-guide="tile">წაიკითხე რჩევა →</button></div>
+          </article>
+          <article class="idea-card">
+            <div class="idea-card__visual idea-card__visual--project"><span>03</span></div>
+            <div><small>რემონტის გეგმა</small><h3>რა უნდა გაზომო მაღაზიაში მოსვლამდე?</h3><p>მარტივი ჩამონათვალი დაგიზოგავს დროს და თავიდან აგაცილებს შეუსაბამო შენაძენს.</p><button class="text-link" data-guide="measure">წაიკითხე რჩევა →</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__media">
+          <img src="assets/cabinet-2.svg" alt="Keralux-ის აბაზანის ავეჯის კოლექცია">
+          <div class="about__rating"><strong>4.6 / 5</strong><span>Google-ის 42 შეფასების მიხედვით</span></div>
+        </div>
+        <div class="about__content">
+          <span class="eyebrow eyebrow--dark">Keralux ბათუმში</span>
+          <h2>პროდუქტი, რომელიც სივრცეს პრაქტიკულს და დასრულებულს ხდის</h2>
+          <p>Keralux აერთიანებს სანტექნიკას, კაფელს, აბაზანის ავეჯს, სარემონტო და საყოფაცხოვრებო საქონელს. ჩვენი მიზანია მომხმარებელმა ერთ სივრცეში მიიღოს არჩევანი, გასაგები ინფორმაცია და საჭირო კონსულტაცია.</p>
+          <ul>
+            <li>პროდუქციის დათვალიერება ფიზიკურ მაღაზიაში</li>
+            <li>დახმარება ტექნიკური მახასიათებლების შერჩევაში</li>
+            <li>შეთავაზებები როგორც სახლისთვის, ისე პროექტებისთვის</li>
+          </ul>
+          <a class="button button--dark" href="https://www.facebook.com/keraluxbatumi?_rdr" target="_blank" rel="noopener">Facebook გვერდი</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-card contact-card--main">
+          <span class="eyebrow">გვესტუმრე</span>
+          <h2>Keralux — ბათუმი</h2>
+          <p>ადგილზე ნახავ პროდუქციის ფართო არჩევანს და მიიღებ კონსულტაციას.</p>
+          <dl>
+            <div><dt>მისამართი</dt><dd>ბათუმი, ბაგრატიონის ქუჩა 12</dd></div>
+            <div><dt>ტელეფონი</dt><dd><a href="tel:+995558042042">+995 558 04 20 42</a></dd></div>
+            <div><dt>ელფოსტა</dt><dd><a href="mailto:keralux22@mail.ru">keralux22@mail.ru</a></dd></div>
+          </dl>
+          <div class="contact-card__actions">
+            <a class="button button--light" href="https://maps.app.goo.gl/PQPqKfvnv5aGLSYRA" target="_blank" rel="noopener">რუკაზე გახსნა</a>
+            <a class="button button--outline-light" href="tel:+995558042042">დარეკვა</a>
+          </div>
+        </div>
+        <div class="contact-card contact-card--map" aria-label="მაღაზიის მდებარეობის ვიზუალური რუკა">
+          <div class="map-grid" aria-hidden="true"></div>
+          <div class="map-pin" aria-hidden="true"><span></span></div>
+          <div class="map-label"><strong>Keralux</strong><span>ბაგრატიონის 12</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container newsletter__inner">
+        <div><strong>მიიღე ახალი შეთავაზებები პირველმა</strong><p>დატოვე ელფოსტა და გამოგიგზავნით სიახლეებსა და პრაქტიკულ რჩევებს.</p></div>
+        <form id="newsletterForm"><label class="sr-only" for="newsletterEmail">ელფოსტა</label><input id="newsletterEmail" type="email" required placeholder="თქვენი ელფოსტა"><button class="button button--primary" type="submit">გამოწერა</button></form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand brand--footer" href="#top"><img src="assets/logo.svg" alt="" width="64" height="64"><span><strong>Keralux</strong><small>ყველაფერი სახლისთვის</small></span></a>
+        <p>სანტექნიკა, კაფელი, აბაზანის ავეჯი და სარემონტო საქონელი ბათუმში.</p>
+      </div>
+      <div><h3>პროდუქცია</h3><a href="#featured" data-footer-category="სანტექნიკა">სანტექნიკა</a><a href="#featured" data-footer-category="აბაზანის ავეჯი">აბაზანის ავეჯი</a><a href="#featured" data-footer-category="კაფელი">კაფელი</a><a href="#featured" data-footer-category="საყოფაცხოვრებო">საყოფაცხოვრებო</a></div>
+      <div><h3>დახმარება</h3><a href="#projectSupport">პროექტის მხარდაჭერა</a><a href="#ideas">რჩევები</a><a href="#contact">მიწოდების კითხვა</a><a href="#contact">დაბრუნება და გარანტია</a></div>
+      <div><h3>კონტაქტი</h3><a href="tel:+995558042042">+995 558 04 20 42</a><a href="mailto:keralux22@mail.ru">keralux22@mail.ru</a><a href="https://maps.app.goo.gl/PQPqKfvnv5aGLSYRA" target="_blank" rel="noopener">ბაგრატიონის 12, ბათუმი</a><a href="https://www.facebook.com/keraluxbatumi?_rdr" target="_blank" rel="noopener">Facebook</a></div>
+    </div>
+    <div class="container footer__bottom"><span>© <span id="currentYear"></span> Keralux. ყველა უფლება დაცულია.</span><span>საჩვენებელი ონლაინ კატალოგი</span></div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+
+  <aside class="drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-hidden="true">
+    <div class="drawer__header"><div><small>შენი არჩევანი</small><h2 id="cartTitle">კალათა</h2></div><button class="close-button" data-close="cart" aria-label="კალათის დახურვა">×</button></div>
+    <div class="drawer__body" id="cartItems"></div>
+    <div class="drawer__footer">
+      <div class="cart-total"><span>ჯამი</span><strong id="cartTotal">0 ₾</strong></div>
+      <button class="button button--primary button--full" id="checkoutButton">შეკვეთის გაფორმება</button>
+      <small>შეკვეთა გაიგზავნება WhatsApp-ით დასადასტურებლად.</small>
+    </div>
+  </aside>
+
+  <aside class="drawer" id="wishlistPanel" aria-labelledby="wishlistTitle" aria-hidden="true">
+    <div class="drawer__header"><div><small>შენახული პროდუქცია</small><h2 id="wishlistTitle">რჩეულები</h2></div><button class="close-button" data-close="wishlist" aria-label="რჩეულების დახურვა">×</button></div>
+    <div class="drawer__body" id="wishlistItems"></div>
+  </aside>
+
+  <dialog class="modal product-modal" id="productModal">
+    <button class="modal__close" aria-label="ფანჯრის დახურვა">×</button>
+    <div id="productModalContent"></div>
+  </dialog>
+
+  <dialog class="modal checkout-modal" id="checkoutModal">
+    <button class="modal__close" aria-label="ფანჯრის დახურვა">×</button>
+    <div class="modal__heading"><small>სწრაფი შეკვეთა</small><h2>საკონტაქტო ინფორმაცია</h2><p>შეავსე მონაცემები და შეკვეთის დეტალები WhatsApp-ში გაიხსნება.</p></div>
+    <form id="checkoutForm" class="form-grid">
+      <label><span>სახელი და გვარი</span><input name="name" required autocomplete="name"></label>
+      <label><span>ტელეფონი</span><input name="phone" type="tel" required autocomplete="tel" placeholder="5XX XX XX XX"></label>
+      <label class="form-grid__wide"><span>მისამართი ან შეკვეთის შენიშვნა</span><textarea name="note" rows="3" placeholder="მაგ: ბათუმი, მისამართი... ან ადგილზე გატანა"></textarea></label>
+      <button class="button button--primary form-grid__wide" type="submit">WhatsApp-ით გაგზავნა</button>
+    </form>
+  </dialog>
+
+  <dialog class="modal info-modal" id="infoModal">
+    <button class="modal__close" aria-label="ფანჯრის დახურვა">×</button>
+    <div id="infoModalContent"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
