@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="620" viewBox="0 0 620 620" role="img" aria-label="კედელზე საკიდი უნიტაზი">
+  <defs><linearGradient id="w" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#dfe7e3"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="18" flood-opacity=".22"/></filter></defs>
+  <rect width="620" height="620" fill="#d4d7d4"/><g opacity=".4" stroke="#f7f8f7" stroke-width="3"><path d="M0 205h620M0 410h620M206 0v620M413 0v620"/></g>
+  <g filter="url(#s)" transform="translate(112 160)"><path d="M35 50c8-32 51-48 163-48h92c66 0 105 18 112 51l-22 172c-5 47-47 83-96 83H128c-52 0-91-31-99-79z" fill="url(#w)"/><path d="M31 54c8 24 57 39 169 39s181-13 203-40" fill="none" stroke="#b9c5c0" stroke-width="8"/><ellipse cx="216" cy="48" rx="173" ry="43" fill="#f9fbfa" stroke="#c9d2ce" stroke-width="7"/><ellipse cx="216" cy="49" rx="118" ry="20" fill="#e7ece9"/><path d="M83 236h55v40H70z" fill="#cbd5d0"/></g>
+  <rect x="35" y="34" width="112" height="42" rx="21" fill="#f26a2e"/><text x="91" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="white">RIMLESS</text>
+</svg>
