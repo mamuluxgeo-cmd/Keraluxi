@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="620" viewBox="0 0 620 620" role="img" aria-label="თანამედროვე საკიდი უნიტაზი">
+  <defs><linearGradient id="w" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#d8e0dc"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#17231d" flood-opacity=".24"/></filter></defs>
+  <rect width="620" height="620" fill="#aaa9a6"/><rect x="0" y="0" width="620" height="620" fill="url(#bg)" opacity=".08"/><g opacity=".24" stroke="#f5f3ef" stroke-width="3"><path d="M0 206h620M0 412h620M206 0v620M412 0v620"/></g>
+  <g filter="url(#s)" transform="translate(100 150)"><path d="M42 75c10-40 55-62 168-62h91c80 0 116 24 122 64l-18 161c-6 59-55 102-115 102H135c-60 0-104-38-111-97z" fill="url(#w)"/><ellipse cx="222" cy="68" rx="190" ry="56" fill="#fbfcfb" stroke="#c5cfca" stroke-width="8"/><ellipse cx="222" cy="69" rx="132" ry="26" fill="#e5ebe8"/><path d="M31 86c45 33 325 34 384-2" fill="none" stroke="#b7c2bd" stroke-width="8"/><path d="M64 245h60v53H48z" fill="#c6d0cb"/></g>
+  <g transform="translate(458 50)"><circle r="45" fill="#0f6b46"/><path d="M-13 0l10 11L18-15" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
