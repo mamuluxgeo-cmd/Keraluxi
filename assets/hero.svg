@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-label="თანამედროვე აბაზანის ინტერიერი">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d7ddd9"/><stop offset="1" stop-color="#91a19a"/></linearGradient>
+    <linearGradient id="stone" x1="0" x2="1"><stop stop-color="#bcc8c3"/><stop offset=".52" stop-color="#e8ecea"/><stop offset="1" stop-color="#a8b6b0"/></linearGradient>
+    <linearGradient id="wood" x1="0" x2="1"><stop stop-color="#8c6548"/><stop offset="1" stop-color="#c79a72"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#10251b" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="1400" height="520" fill="url(#bg)"/>
+  <g opacity=".5" stroke="#f5f7f6" stroke-width="2"><path d="M0 172h1400M0 346h1400M350 0v520M700 0v520M1050 0v520"/></g>
+  <g opacity=".35" fill="none" stroke="#6f7f78" stroke-width="4"><path d="M30 95c120-80 170 70 310-10s220 75 340-5 210 55 350-15 210 60 345 0"/><path d="M80 390c150-60 250 80 390 8s220 65 390-8 260 45 460-20"/></g>
+  <rect y="430" width="1400" height="90" fill="#26372f"/>
+  <g filter="url(#shadow)">
+    <rect x="875" y="270" width="360" height="180" rx="16" fill="url(#wood)"/>
+    <rect x="900" y="295" width="145" height="130" rx="10" fill="#a97d59"/><rect x="1065" y="295" width="145" height="130" rx="10" fill="#b98a64"/>
+    <circle cx="1025" cy="360" r="5" fill="#21382d"/><circle cx="1085" cy="360" r="5" fill="#21382d"/>
+    <rect x="850" y="245" width="410" height="44" rx="12" fill="#f8faf9"/>
+    <path d="M945 245c4-66 192-66 196 0z" fill="#fff" stroke="#cad3cf" stroke-width="4"/>
+    <path d="M1042 190v48m0-48c0-24 44-24 44 0" fill="none" stroke="#273b32" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#shadow)"><rect x="930" y="32" width="250" height="165" rx="82" fill="#c8d7d0" stroke="#f6f8f7" stroke-width="10"/><ellipse cx="1055" cy="114" rx="104" ry="61" fill="#dce6e1" opacity=".65"/></g>
+  <g transform="translate(705 58)"><rect x="0" y="120" width="120" height="215" rx="30" fill="#eef2ef"/><path d="M60 124C45 76 22 41 4 10m56 114C86 77 102 35 104 0m-44 124C30 90 6 78-14 72m74 52c38-29 72-30 97-28" stroke="#1c7047" stroke-width="12" fill="none" stroke-linecap="round"/><g fill="#2f875b"><ellipse cx="5" cy="11" rx="34" ry="12" transform="rotate(28 5 11)"/><ellipse cx="105" cy="2" rx="34" ry="12" transform="rotate(-28 105 2)"/><ellipse cx="-16" cy="70" rx="32" ry="11" transform="rotate(14 -16 70)"/><ellipse cx="158" cy="96" rx="31" ry="11" transform="rotate(-16 158 96)"/></g></g>
+  <g opacity=".95"><rect x="1280" y="92" width="56" height="260" rx="28" fill="#f4f6f5"/><rect x="1296" y="58" width="24" height="58" rx="12" fill="#f26a2e"/></g>
+</svg>
